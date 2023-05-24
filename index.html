@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            * {
+                margin: 0; 
+                padding: 0;
+                box-sizing: border-box;
+            }
+            main > section {
+                width: 100%; 
+            }
+            main > section > div {
+                width: calc(100% - 40px);
+                margin: 20px;
+                margin-bottom: 0px;
+                overflow: auto;
+            }
+            main > section > div:last-child {
+                margin-bottom: 20px;
+            }
+            @media all and (min-width: 500px) and (max-width: 600px) {
+
+                main > section > div {
+                    width: calc((100% - 60px) / 2);                    
+                }
+                main > section > div:nth-child(odd) {
+                    margin-right: 0;
+                }
+            }
+            @media all and (min-width: 600px) {
+                /* qui diventano 3 */
+                main > section > div {
+                    width: calc((100% - 80px) / 3);                    
+                }
+                main > section > div {
+                    margin-right: 0;
+                }
+                main > section > div:nth-child(4)  {
+                    margin-bottom: 20px;
+                }
+                main > section > div:nth-child(5) {
+                    margin-bottom: 20px;
+                }
+                main > section > div:nth-child(6) {
+                    margin-bottom: 20px;
+                }
+
+            }
+            @media all and (min-width: 700px) {
+                section {
+                    max-width: 700px;
+                    margin: auto;
+                }
+            }
+            div > ul {
+
+            }
+            div > ul + .red
+        </style>
+    </head>
+    <body style="height: 100vh;">
+        <!-- header section -->
+        <header style="height: 100px; background-color: lightblue"></header>
+
+        <!-- main section -->
+        <main style="background-color: green;">
+            <section style="height: calc(100vh - 250px); background-color: lightgreen; overflow: auto;">
+                <div style="height: 200px; background-color: lightseagreen; float: left;">
+                    <h2 style="text-align: center">Titolo della card</h2>
+                    <div style="">
+                        <div style="width: 50%; height: 100%; float: left; padding: 20px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, ipsum! Commodi voluptates autem iste doloribus.</div>
+                        <div style="width: 50%; height: 100%; float: left; padding: 20px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, ipsum! Commodi voluptates autem iste doloribus.</div>
+                    </div>
+                </div>
+                <div style="height: 200px; background-color: lightseagreen; float: left;">
+                    <h2 style="text-align: center">Titolo della card</h2>
+                    <div style="">
+                        <div style="width: 50%; height: 100%; float: left; padding: 20px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, ipsum! Commodi voluptates autem iste doloribus.</div>
+                        <div style="width: 50%; height: 100%; float: left; padding: 20px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, ipsum! Commodi voluptates autem iste doloribus.</div>
+                    </div>
+                </div>
+                <div style="height: 200px; background-color: lightseagreen; float: left;">
+                    <h2 style="text-align: center">Titolo della card</h2>
+                    <div style="">
+                        <div style="width: 50%; height: 100%; float: left; padding: 20px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, ipsum! Commodi voluptates autem iste doloribus.</div>
+                        <div style="width: 50%; height: 100%; float: left; padding: 20px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, ipsum! Commodi voluptates autem iste doloribus.</div>
+                    </div>
+                </div>
+                <div style="height: 200px; background-color: lightseagreen; float: left;">
+                    <h2 style="text-align: center">Titolo della card</h2>
+                    <div style="">
+                        <div style="width: 50%; height: 100%; float: left; padding: 20px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, ipsum! Commodi voluptates autem iste doloribus.</div>
+                        <div style="width: 50%; height: 100%; float: left; padding: 20px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, ipsum! Commodi voluptates autem iste doloribus.</div>
+                    </div>
+                </div>
+                <div style="height: 200px; background-color: lightseagreen; float: left;">
+                    <h2 style="text-align: center">Titolo della card</h2>
+                    <div style="">
+                        <div style="width: 50%; height: 100%; float: left; padding: 20px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, ipsum! Commodi voluptates autem iste doloribus.</div>
+                        <div style="width: 50%; height: 100%; float: left; padding: 20px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, ipsum! Commodi voluptates autem iste doloribus.</div>
+                    </div>
+                </div>
+                <div style="height: 200px; background-color: lightseagreen; float: left;">
+                    <h2 style="text-align: center">Titolo della card</h2>
+                    <div style="">
+                        <div style="width: 50%; height: 100%; float: left; padding: 20px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, ipsum! Commodi voluptates autem iste doloribus.</div>
+                        <div style="width: 50%; height: 100%; float: left; padding: 20px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, ipsum! Commodi voluptates autem iste doloribus.</div>
+                    </div>
+                </div>
+                <div style="height: 200px; background-color: lightseagreen; float: left;">
+                    <h2 style="text-align: center">Titolo della card</h2>
+                    <div style="">
+                        <div style="width: 50%; height: 100%; float: left; padding: 20px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, ipsum! Commodi voluptates autem iste doloribus.</div>
+                        <div style="width: 50%; height: 100%; float: left; padding: 20px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, ipsum! Commodi voluptates autem iste doloribus.</div>
+                    </div>
+                </div>
+                <div style="height: 200px; background-color: lightseagreen; float: left;">
+                    <h2 style="text-align: center">Titolo della card</h2>
+                    <div style="">
+                        <div style="width: 50%; height: 100%; float: left; padding: 20px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, ipsum! Commodi voluptates autem iste doloribus.</div>
+                        <div style="width: 50%; height: 100%; float: left; padding: 20px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, ipsum! Commodi voluptates autem iste doloribus.</div>
+                    </div>
+                </div>
+                <div style="height: 200px; background-color: lightseagreen; float: left;">
+                    <h2 style="text-align: center">Titolo della card</h2>
+                    <div style="">
+                        <div style="width: 50%; height: 100%; float: left; padding: 20px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, ipsum! Commodi voluptates autem iste doloribus.</div>
+                        <div style="width: 50%; height: 100%; float: left; padding: 20px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, ipsum! Commodi voluptates autem iste doloribus.</div>
+                    </div>
+                </div>
+                <div style="height: 200px; background-color: lightseagreen; float: left;">
+                    <h2 style="text-align: center">Titolo della card</h2>
+                    <div style="">
+                        <div style="width: 50%; height: 100%; float: left; padding: 20px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, ipsum! Commodi voluptates autem iste doloribus.</div>
+                        <div style="width: 50%; height: 100%; float: left; padding: 20px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, ipsum! Commodi voluptates autem iste doloribus.</div>
+                    </div>
+                </div>
+                <div style="height: 200px; background-color: lightseagreen; float: left;">
+                    <h2 style="text-align: center">Titolo della card</h2>
+                    <div style="">
+                        <div style="width: 50%; height: 100%; float: left; padding: 20px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, ipsum! Commodi voluptates autem iste doloribus.</div>
+                        <div style="width: 50%; height: 100%; float: left; padding: 20px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, ipsum! Commodi voluptates autem iste doloribus.</div>
+                    </div>
+                </div>
+                <div style="height: 200px; background-color: lightseagreen; float: left;">
+                    <h2 style="text-align: center">Titolo della card</h2>
+                    <div style="">
+                        <div style="width: 50%; height: 100%; float: left; padding: 20px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, ipsum! Commodi voluptates autem iste doloribus.</div>
+                        <div style="width: 50%; height: 100%; float: left; padding: 20px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, ipsum! Commodi voluptates autem iste doloribus.</div>
+                    </div>
+                </div>
+                <div style="height: 200px; background-color: lightseagreen; float: left;">
+                    <h2 style="text-align: center">Titolo della card</h2>
+                    <div style="">
+                        <div style="width: 50%; height: 100%; float: left; padding: 20px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, ipsum! Commodi voluptates autem iste doloribus.</div>
+                        <div style="width: 50%; height: 100%; float: left; padding: 20px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, ipsum! Commodi voluptates autem iste doloribus.</div>
+                    </div>
+                </div>
+                <div style="height: 200px; background-color: lightseagreen; float: left;">
+                    <h2 style="text-align: center">Titolo della card</h2>
+                    <div style="">
+                        <div style="width: 50%; height: 100%; float: left; padding: 20px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, ipsum! Commodi voluptates autem iste doloribus.</div>
+                        <div style="width: 50%; height: 100%; float: left; padding: 20px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, ipsum! Commodi voluptates autem iste doloribus.</div>
+                    </div>
+                </div>
+                <div style="height: 200px; background-color: lightseagreen; float: left;">
+                    <h2 style="text-align: center">Titolo della card</h2>
+                    <div style="">
+                        <div style="width: 50%; height: 100%; float: left; padding: 20px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, ipsum! Commodi voluptates autem iste doloribus.</div>
+                        <div style="width: 50%; height: 100%; float: left; padding: 20px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, ipsum! Commodi voluptates autem iste doloribus.</div>
+                    </div>
+                </div>
+                <div style="height: 200px; background-color: lightseagreen; float: left;">
+                    <h2 style="text-align: center">Titolo della card</h2>
+                    <div style="">
+                        <div style="width: 50%; height: 100%; float: left; padding: 20px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, ipsum! Commodi voluptates autem iste doloribus.</div>
+                        <div style="width: 50%; height: 100%; float: left; padding: 20px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, ipsum! Commodi voluptates autem iste doloribus.</div>
+                    </div>
+                </div>
+            </section>
+            <div class="black red">
+                <ul></ul>
+                <section>
+                    <div>
+
+                        <ul></ul>
+                        <div class="red"></div>
+                    </div>
+                </section>
+            </div> 
+            <ul></ul>
+        </main>
+
+        <!-- footer section -->
+        <footer style="height: 150px; background-color: lightcoral"></footer>
+    </body>
+</html>
